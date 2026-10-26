@@ -1,13 +1,21 @@
-begampura_secure_contact_donation/
+# Begampura — Together for a Better Tomorrow
+
+ਇਹ **Begampura** NGO (ਸਮਾਜਿਕ ਭਲਾਈ ਸੰਸਥਾ) ਦਾ ਅਧਿਕਾਰਤ ਵੈੱਬ ਪ੍ਰੋਜੈਕਟ ਹੈ। ਇਸ ਵੈੱਬਸਾਈਟ ਦਾ ਉਦੇਸ਼ ਭਾਈਚਾਰੇ ਦੀ ਮਦਦ ਕਰਨਾ, ਸਿੱਖਿਆ, ਭੋਜਨ ਅਤੇ ਮੈਡੀਕਲ ਸਹਾਇਤਾ ਪ੍ਰਦਾਨ ਕਰਨਾ ਹੈ।
+
+---
+
+## 🚀 ਮੁੱਖ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ (Key Features)
+* **ਭਾਸ਼ਾ ਬਦਲਣ ਦੀ ਸੁਵਿਧਾ (Bilingual Support):** ਯੂਜ਼ਰਸ ਇੱਕ ਕਲਿੱਕ ਨਾਲ ਵੈੱਬਸਾਈਟ ਨੂੰ **ਪੰਜਾਬੀ** ਅਤੇ **English** ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹਨ।
+* **ਸੇਵਾਵਾਂ (Services):** ਭੋਜਨ ਸਹਾਇਤਾ, ਸਭ ਲਈ ਸਿੱਖਿਆ, ਮੈਡੀਕਲ ਸਹਾਇਤਾ ਅਤੇ ਸਮਾਜਿਕ ਭਲਾਈ ਦੇ ਕੰਮਾਂ ਦੀ ਜਾਣਕਾਰੀ[cite: 7]।
+* **ਦਾਨ ਬਟਨ (Donation Section):** ਲੋੜਵੰਦਾਂ ਦੀ ਸਹਾਇਤਾ ਲਈ ਡੋਨੇਟ ਕਰਨ ਦਾ ਵਿਕਲਪ[cite: 7]।
+* **ਸੰਪਰਕ ਫਾਰਮ (Contact Form):** ਵਲੰਟੀਅਰ ਬਣਨ ਜਾਂ ਸੁਨੇਹਾ ਭੇਜਣ ਲਈ ਆਸਾਨ ਫਾਰਮ[cite: 7]।
+* **ਰੈਸਪਾਂਸਿਵ ਡਿਜ਼ਾਈਨ (Mobile Friendly):** ਇਹ ਮੋਬਾਈਲ, ਟੈਬਲੇਟ ਅਤੇ ਕੰਪਿਊਟਰ 'ਤੇ ਬਹੁਤ ਵਧੀਆ ਤਰੀਕੇ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ[cite: 7]।
+
+---
+
+## 🛠️ ਪ੍ਰੋਜੈਕਟ ਦੀ ਬਣਤਰ (Project Structure)
+```text
+begampura_project/
 │
-├── server.js            # ਬੈਕਐਂਡ ਸਰਵਰ ਫ਼ਾਈਲ (Node.js)
-├── package.json         # ਨਿਰਭਰਤਾ (Dependencies) ਅਤੇ ਸਕ੍ਰਿਪਟਾਂ
-├── .env.example         # ਵਾਤਾਵਰਣ ਵੇਰਵਿਆਂ ਲਈ ਟੈਂਪਲੇਟ (.env)
-├── .gitignore           # ਅਣਚਾਹੀਆਂ ਫ਼ਾਈਲਾਂ ਨੂੰ ਛੁਪਾਉਣ ਲਈ
-├── README.md            # ਪ੍ਰੋਜੈਕਟ ਦੀ ਜਾਣਕਾਰੀ
-└── public/              # ਫਰੰਟਐਂਡ ਫ਼ਾਈਲਾਂ
-    ├── index.html       # ਮੁੱਖ ਵੈੱਬ ਪੇਜ
-    └── admin.html       # ਐਡਮਿਨ ਪੈਨਲ
-    npm install
-    npm start
-    node server.js
+├── begampura_website_2.html   # ਮੁੱਖ ਵੈੱਬਸਾਈਟ ਫ਼ਾਈਲ (Frontend & Logic)
+└── README.md                  # ਪ੍ਰੋਜੈਕਟ ਦੀ ਜਾਣਕਾਰੀ (This file)
